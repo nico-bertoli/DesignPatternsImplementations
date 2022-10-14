@@ -33,20 +33,20 @@ class ClonableChicken : MonoBehaviour, IPrototype {
     public void IncreaseVal() {
         value.increaseVal();
     }
-}
 
-class Value {
-    public int MyVal { get; private set; }
+    private class Value {
+        public int MyVal { get; private set; }
 
-    public Value() {
-        MyVal = 0;
-    }
-    public Value(int _val) {
-        MyVal = _val; Debug.Log("clone created with val:" + MyVal);
-    }
+        public Value() {
+            MyVal = 0;
+        }
+        public Value(int _val) {
+            MyVal = _val; Debug.Log("clone created with val:" + MyVal);
+        }
 
-    public void increaseVal() {
-        MyVal++;
-        Debug.Log("prototype val increased: " + MyVal);
+        public void increaseVal() {
+            MyVal++;
+            Debug.Log("prototype val increased: " + MyVal);
+        }
     }
 }
