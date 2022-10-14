@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-abstract class Animal : MonoBehaviour
+interface IPrototype
 {
-    protected abstract void Sound();
+    public IPrototype Clone();
 }
