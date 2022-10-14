@@ -487,8 +487,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 238871251}
-        m_TargetAssemblyTypeName: CaterpillarFactory, Assembly-CSharp
-        m_MethodName: CreateAnimal
+        m_TargetAssemblyTypeName: AbsAnimalFactory, Assembly-CSharp
+        m_MethodName: CreateAnimalVoid
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -993,8 +993,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 448870426}
-        m_TargetAssemblyTypeName: ChickenFactory, Assembly-CSharp
-        m_MethodName: CreateAnimal
+        m_TargetAssemblyTypeName: AbsAnimalFactory, Assembly-CSharp
+        m_MethodName: CreateAnimalVoid
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

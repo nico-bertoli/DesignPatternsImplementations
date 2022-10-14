@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class AbsAnimal : MonoBehaviour
+public abstract class Animal : MonoBehaviour
 {
     protected abstract void Sound();
 }

@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class ChickenFactory : AbsAnimalFactory {
 
-    public override void CreateAnimal() {
-        base.CreateAnimal();
+    public override Animal CreateAnimal() {
         Debug.Log("doing specific instantiation operations for chicken");
+        return base.CreateAnimal();
     }
+
 }
