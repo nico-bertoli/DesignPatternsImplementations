@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Gun : MonoBehaviour
+class Gun : MonoBehaviour
 {
     [SerializeField] float bulletsPerSecond;
     [SerializeField] float bulletsSpeed;
@@ -27,7 +27,7 @@ public class Gun : MonoBehaviour
     private void Shot() {
         GameObject obj = Pool.Instance.AcquireReusable();
         obj.transform.position = transform.position;
-        int randomDegrees = Random.Range(-15, 16);
+        int randomDegrees = Random.Range(-10, 11);
         obj.GetComponent<Bullet>().Shot(Quaternion.AngleAxis(randomDegrees, transform.forward) * transform.up, bulletsSpeed);
     }
 }

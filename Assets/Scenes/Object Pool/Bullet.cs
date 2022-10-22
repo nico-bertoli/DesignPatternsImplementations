@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Bullet : MonoBehaviour
+class Bullet : MonoBehaviour
 {
     Rigidbody rb;
     private void Awake() {

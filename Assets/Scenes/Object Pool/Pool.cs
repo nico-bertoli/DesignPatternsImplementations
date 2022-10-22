@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Pool : Singleton<Pool>
+class Pool : Singleton<Pool>
 {
     [Header("Settings")]
     [SerializeField] int startPoolSize;
