@@ -356,7 +356,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 406dca70597e2da4cb5b9c69cb73b911, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animalPrefab: {fileID: 4725355358511944462, guid: 38aec720ddf74d942a32aa98394ed277, type: 3}
+  animalPrefab: {fileID: 4967629088966328866, guid: 38aec720ddf74d942a32aa98394ed277, type: 3}
 --- !u!1 &448870424
 GameObject:
   m_ObjectHideFlags: 0

@@ -4,7 +4,7 @@ using UnityEngine;
 
 class CaterpillarFactory : AbsAnimalFactory {
     public override Animal CreateAnimal() {
-        Debug.Log("doing specific instantiation operations for caterpillar");
+        Debug.Log("Caterpillar factory: executing instantiation operations for caterpillar");
         return base.CreateAnimal();
     }
 }
