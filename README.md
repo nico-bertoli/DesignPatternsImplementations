@@ -1,1 +1,1 @@
-Here I'm implementing very simple versions of the main design patterns to study them.
+I'm implementing simple versions of the main design patterns with Unity, in order to study them.
